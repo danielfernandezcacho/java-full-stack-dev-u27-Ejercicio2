@@ -2,6 +2,7 @@
 Este repositorio corresponde al ejercicio 2 realizado en la formación de Java Full Stack Developer, concretamente a la unidad 27 UD27 - Spring REST JWT Autores Daniel Fernández Cacho / Joan Hurtado García / Jose A González Alcántara
 
 Token
+
 ![image](https://user-images.githubusercontent.com/65864090/170473330-1b0a1aa3-4b61-4a41-8d56-8db215792158.png)
 
 Cientificos Get
