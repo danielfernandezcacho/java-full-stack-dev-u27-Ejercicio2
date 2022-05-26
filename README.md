@@ -37,3 +37,7 @@ Proyectos Put
 http://localhost:8080/Proyecto/2
 ![image](https://user-images.githubusercontent.com/65864090/170478717-ac6ea5a4-66e4-43f0-9156-e6c2163b54d3.png)
 
+Asignado get
+http://localhost:8080/Asignado/
+![image](https://user-images.githubusercontent.com/65864090/170481060-737cc1b3-679a-4690-a87f-e8fb988e81af.png)
+
