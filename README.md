@@ -30,6 +30,10 @@ http://localhost:8080/Proyecto/
 ![image](https://user-images.githubusercontent.com/65864090/170476294-1d478f51-4f18-4f20-8d75-706f62630fd2.png)
 
 Proyectos Put
-http://localhost:8080/Proyecto/
+http://localhost:8080/Proyecto/2
 ![image](https://user-images.githubusercontent.com/65864090/170476454-a97ab0ff-e7ee-4c07-a351-143294a180c7.png)
+
+Proyectos Put
+http://localhost:8080/Proyecto/2
+![image](https://user-images.githubusercontent.com/65864090/170478717-ac6ea5a4-66e4-43f0-9156-e6c2163b54d3.png)
 
