@@ -33,21 +33,20 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 public class Proyecto {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id;
+	private String id;
 	@Column(name = "nombre")
 	private String nombre;
 	@Column(name = "horas")
 	private int horas;
 	
 	@OneToMany
-	@JoinColumn(name = "id")
+	@JoinColumn(name = "proyecto")
 	private List<Asignado> asignado;
 	public Proyecto() {
 		super();
 	}
 
-	public Proyecto(int id, String nombre, int horas, List<Asignado> asignado) {
+	public Proyecto(String id, String nombre, int horas, List<Asignado> asignado) {
 		super();
 		this.id = id;
 		this.nombre = nombre;
@@ -55,11 +54,12 @@ public class Proyecto {
 		this.asignado = asignado;
 	}
 
-	public int getId() {
+	public String getId() {
+		
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 

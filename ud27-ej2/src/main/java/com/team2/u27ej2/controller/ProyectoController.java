@@ -50,7 +50,7 @@ public class ProyectoController {
 	
 	
 	@GetMapping("/{id}")
-	public Proyecto ProyectoXID(@PathVariable(name="id") int id) {
+	public Proyecto ProyectoXID(@PathVariable(name="id") String id) {
 		
 		Proyecto Proyecto_xid= new Proyecto();
 		
@@ -61,7 +61,7 @@ public class ProyectoController {
 	}
 	
 	@PutMapping("/{id}")
-public Proyecto actualizarProyecto(@PathVariable(name="id")int id,@RequestBody Proyecto Proyecto) {
+public Proyecto actualizarProyecto(@PathVariable(name="id")String id,@RequestBody Proyecto Proyecto) {
 		
 		Proyecto Proyecto_seleccionado= new Proyecto();
 		Proyecto Proyecto_actualizado= new Proyecto();
@@ -78,7 +78,7 @@ public Proyecto actualizarProyecto(@PathVariable(name="id")int id,@RequestBody P
 	}
 	
 	@DeleteMapping("/{id}")
-	public void eliminarProyecto(@PathVariable(name="id")int id) {
+	public void eliminarProyecto(@PathVariable(name="id")String id) {
 		proyectoServiceImpl.eliminarProyecto(id);
 	}
 	

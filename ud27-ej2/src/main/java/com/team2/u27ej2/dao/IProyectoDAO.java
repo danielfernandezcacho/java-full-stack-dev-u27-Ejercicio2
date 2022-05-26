@@ -17,6 +17,6 @@ import com.team2.u27ej2.dto.Proyecto;
  * IProyectoDAO
  *
  */
-public interface IProyectoDAO extends JpaRepository<Proyecto, Integer>{
+public interface IProyectoDAO extends JpaRepository<Proyecto, String>{
 
 }

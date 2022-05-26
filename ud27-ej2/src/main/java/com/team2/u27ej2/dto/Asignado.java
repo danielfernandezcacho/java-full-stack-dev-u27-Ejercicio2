@@ -30,38 +30,44 @@ public class Asignado {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)//mira el ultimo valor i pone el nuestro en fuincion de el ultimo valor
 	private int id;
-	
+	private int precio;
 
 	@ManyToOne
-	@JoinColumn(name = "id_cientifico")
+	@JoinColumn(name = "cientifico")
 	Cientificos cientifico;
 	
 	@ManyToOne
-	@JoinColumn(name = "id_proyecto")
+	@JoinColumn(name = "proyecto")
 	Proyecto proyecto;
-
-
-
-	/**
-	 * @param id
-	 * @param proveedor
-	 * @param pieza
-	 * @param precio
-	 */
-	public Asignado(int id, Cientificos cientifico, Proyecto proyecto) {
-		super();
-		this.id = id;
-		this.cientifico = cientifico;
-		this.proyecto = proyecto;
-	}
-
+	
 
 	public Asignado() {
 		super();
 	}
 
+	/**
+	 * @param id
+	 * @param precio
+	 * @param cientifico
+	 * @param proyecto
+	 */
+	public Asignado(int id, int precio, Cientificos cientifico, Proyecto proyecto) {
+		this.id = id;
+		this.precio = precio;
+		this.cientifico = cientifico;
+		this.proyecto = proyecto;
+	}
+
 	public int getId() {
 		return id;
+	}
+
+	public int getPrecio() {
+		return precio;
+	}
+
+	public void setPrecio(int precio) {
+		this.precio = precio;
 	}
 
 	public void setId(int id) {
@@ -86,9 +92,10 @@ public class Asignado {
 
 	@Override
 	public String toString() {
-		return "Asignado [id=" + id + ", cientifico=" + cientifico + ", proyecto=" + proyecto + "]";
+		return "Asignado [id=" + id + ", precio=" + precio + ", cientifico=" + cientifico + ", proyecto=" + proyecto
+				+ "]";
 	}
-	
+
 	
 
 }
