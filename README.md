@@ -21,3 +21,15 @@ Cientificos Delete
 http://localhost:8080/Cientificos/20
 ![image](https://user-images.githubusercontent.com/65864090/170473857-ab2e4731-a701-494f-a644-edc6ffd73aa2.png)
 
+Proyectos Get
+http://localhost:8080/Proyecto/
+![image](https://user-images.githubusercontent.com/65864090/170474671-1971a168-cff9-4941-8f1f-7b3561d66789.png)
+
+Proyectos Post
+http://localhost:8080/Proyecto/
+![image](https://user-images.githubusercontent.com/65864090/170476294-1d478f51-4f18-4f20-8d75-706f62630fd2.png)
+
+Proyectos Put
+http://localhost:8080/Proyecto/
+![image](https://user-images.githubusercontent.com/65864090/170476454-a97ab0ff-e7ee-4c07-a351-143294a180c7.png)
+
