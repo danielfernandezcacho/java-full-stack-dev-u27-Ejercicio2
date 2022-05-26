@@ -41,3 +41,18 @@ Asignado get
 http://localhost:8080/Asignado/
 ![image](https://user-images.githubusercontent.com/65864090/170481060-737cc1b3-679a-4690-a87f-e8fb988e81af.png)
 
+Asignado post
+http://localhost:8080/Asignado/
+![image](https://user-images.githubusercontent.com/65864090/170481297-b61b3d72-7eba-4120-a263-b2f0babd675c.png)
+
+Asignado put
+http://localhost:8080/Asignado/
+![image](https://user-images.githubusercontent.com/65864090/170481501-56bfa26f-019f-4bfe-b649-39a234429862.png)
+
+Asignado delete
+http://localhost:8080/Asignado/
+![image](https://user-images.githubusercontent.com/65864090/170481584-841e264f-e51d-4a15-baed-14e89935dfbe.png)
+
+
+
+
